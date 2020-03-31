@@ -1,0 +1,33 @@
+
+/*This is for desktop*/
+#div1  {
+
+width:100%;
+border: 1px solid black;
+	
+}					
+
+/*This is for mobile*/
+
+@media screen and (min-width:600px)
+{
+
+#div1 
+{
+
+	width:80%;
+}
+
+}
+
+/*This is for IPAD*/
+@media screen and (min-width:900px)
+{
+
+#div1 
+{
+
+	width:60%;
+}
+
+}

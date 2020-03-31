@@ -1,0 +1,593 @@
+body
+{
+
+background-color: #0C1027;
+display: inline-block;
+
+
+}
+
+main
+{
+  
+
+width: 75%;
+height: 100%;
+
+display: inline-block;
+
+}
+
+
+/* Header starts here*/
+
+#body-header
+{
+
+position:sticky;
+top:0;
+bottom:25%;
+	
+}
+
+#m_header 
+{
+
+
+width:196vh;
+height:8vh;
+
+padding-left:5vw;
+padding-bottom:20px;
+display: flex;
+flex-direction: row;
+background-color: #0C1027;
+color: white;
+
+
+}
+
+
+
+#title-icon
+{
+
+	color:white;
+	font-size:30px;
+	color: white;
+
+}
+
+#m_header form
+{
+
+padding: 30px;
+padding-left: 20vw;
+
+
+}
+
+#m_header form input
+{
+
+background-color: #12193E;
+border: 1px solid #12193E;
+border-radius: 10%;
+height: 25px;
+
+}
+
+
+#m_header form input i
+{
+
+	position: relative;
+}
+
+
+#m_header a
+
+{
+text-decoration: none;
+padding-top: 15px;
+padding:27px;
+padding-left: 5vw;
+font-size: 25px;
+padding-bottom: 5px;
+color: white;
+}
+
+#bell
+{
+
+font-size: 30px;
+padding: 30px;
+padding-left: 2vw;
+color: white;
+
+}
+
+#profile-icon
+{
+
+font-size: 25px;
+padding-top: 20px;
+padding: 25px;
+padding-left: 8vw;
+color: white;
+border-radius:50%;
+}
+
+#profile-icon i
+{
+border: 3px solid white;
+border-radius:50%;
+
+}
+
+/*header END HERE*/
+
+
+/*Single-Playlist Screen*/
+#sp-header
+{
+
+height:100%;
+width: 100%;
+
+background-color: #141B41;	
+
+
+
+}
+
+
+#homepage
+{
+
+height: 25vh;
+width: 25vw;
+border: 2px solid white;
+display: inline-block;
+background-color: #141B41;
+padding-left:50px; 
+padding-top: 50px;
+
+}
+
+#Artist-Description
+{
+
+display: inline-block;
+vertical-align: top;
+color: white;
+font-size: 20px;
+padding-top: 20px;
+padding-left:50px; 
+font-weight: bold;
+
+}
+
+
+#Artist-Description form
+{
+
+font-size: 10px;
+padding:70px;
+
+}
+
+#Artist-Description form button
+{
+
+font-size: 15px;
+height: 50px;
+width: 200px;
+background-color: #AE42D8;
+color:white;
+border: 2px solid  #AE42D8;
+opacity: 0.5;
+transition: all 0.2s;
+}
+
+
+#Artist-Description form button:hover
+{
+
+box-shadow: 0 5px 15px;
+color: rgba(255, 255, 255, 1);
+
+}
+
+
+
+
+.bname
+{
+
+font-size: 15px;
+
+}
+
+.aboutband
+{
+
+
+font-size: 12px;
+text-align: left;	
+}
+
+
+
+form
+{
+
+display: inline-block;
+ vertical-align: top;
+ padding-top: 200px;
+ padding-right: 10px;
+
+
+}
+
+form button
+{
+
+background-color: #141B41;
+color: white;
+border: 1px solid #141B41;
+transition: all 0.2s;
+
+}
+
+form button:hover
+{
+
+box-shadow: 0 5px 15px;
+color: rgba(255, 255, 255, 1);
+
+}
+
+
+
+#single-tracks
+{
+position: flex;
+flex-direction: column;
+box-shadow: 
+width: 73vw;
+height: 100vh;
+
+box-shadow: 
+
+}
+
+.track
+{
+
+height: 10%;
+width: 96%;
+border: 1px solid white;
+padding-top:50px;
+padding-left:50px;
+display: inline-block;
+background-color: #1A1E33;
+box-shadow: 5px 7px #141B41;
+transition: transform 2s;
+}
+
+.track:hover
+{
+
+transform:scale(0.8);
+
+}
+
+
+.pic
+{
+
+height: 50px;
+width: 50px;
+border: 2px solid red;
+display: inline-block;
+
+}
+
+.track div
+{
+
+display: inline-block;
+vertical-align: top;
+color: white;
+padding-left: 150px;
+
+}
+
+.details i
+{
+
+display: inline-block;
+vertical-align: top;
+padding-left: 500px;
+
+
+
+}
+
+.track i
+
+{
+
+color: white;
+padding-right: 30px;
+
+}
+
+/*Aside Starts From here*/
+
+aside
+{
+
+display: inline-block;
+vertical-align: top;
+color: white;	
+padding: 20px;
+
+}
+
+.queue
+{
+
+display: flex;
+flex-direction: row;
+padding-top:50px;
+
+}
+
+
+.q-box
+{
+
+height:100px; 
+width:100px;
+border: 1px solid white;
+transition: transform 2s;
+background-color: #065FD4;  
+
+
+}
+
+
+.q-box:hover
+{
+
+transform:scale(0.8);
+
+}
+
+.s-name
+{
+
+padding-left: 20px;
+
+
+}
+
+
+
+.icon
+{
+
+padding-left: 20px;
+color:white;
+
+}
+
+.dropdown 
+{
+  position: relative;
+  display: inline-block;
+  padding-left: 7%;
+}
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  text-decoration:none;
+  z-index: 1;
+}
+
+.dropdown-content a
+{
+
+text-decoration:none;
+
+}
+
+.dropdown-content i
+{
+
+color:black;
+
+}
+
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+
+
+/*Music-Player*/
+
+#Music-player
+{
+
+color: white;
+position: sticky;
+top:5%;
+bottom: 0%;
+background-color: #282828;
+}
+
+
+#m-player
+{
+
+height:15vh;
+width: 100%;
+
+display: flex;
+flex-direction: row;  
+/*padding: 10px;*/
+/*padding-left: 80px;*/
+/*padding-top: 20px;*/
+}
+
+.mp-1
+{
+
+height: 105px;
+width: 350px;
+
+display: flex;
+flex-direction: row;
+
+}
+
+#track-pic
+{
+
+height: 50%;
+width: 20%;
+border: 1px solid red;
+position: relative;
+left: 15%;
+top:10%;
+}
+
+#mp-trackname
+{
+
+position: relative;
+top:10%;
+left:25%;
+
+}
+
+.ic
+{
+
+position: relative;
+left: 30%;
+top: 10%;
+}
+
+#mp-2
+{
+
+height: 105px;
+width: 50%;
+
+
+}
+
+#tim1
+{
+
+position: relative;
+top: 63%;
+left:1.5%;  
+
+}
+
+#tim2
+{
+
+position: relative;
+top: 35%;
+left: 95%;
+
+
+}
+
+#bar
+{
+
+height: 10px;
+width: 600px;
+border: 1px solid white;
+position: relative;
+left: 10%;  
+top: 50%;
+border-radius: 5px 5px 5px 5px;
+
+}
+
+#bar-2
+{
+
+height: 10px;
+width: 300px;
+background-color: #37E88B;  
+
+}
+
+
+#track-sym
+{
+
+position: relative;
+left:32%;
+bottom: 25%;
+vertical-align: center;
+
+}
+
+
+.mp-1
+{
+
+
+height: 105px;
+width: 370px;
+
+}
+
+
+#sound-bar
+{
+
+height: 10px;
+width: 150px;
+border: 2px solid white;
+position: relative;
+left: 10%;
+top:30%;
+border-radius: 5px 5px 5px 5px;
+
+}
+
+#sb2
+{
+
+height: 10px;
+width: 80px;
+background-color: #37E88B;
+
+}
+
+#track-sym2
+{
+
+position: relative;
+top:30%;
+left: 5%
+
+}

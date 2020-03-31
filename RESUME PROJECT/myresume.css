@@ -1,0 +1,91 @@
+body 
+{
+    margin:0px;
+}
+
+/* Body Header */
+
+#body-header
+ {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 0px;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list 
+{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.horizontal-list li 
+{
+    display: inline-block;
+    margin:0px 8px 8px 0px;
+    font-size: 20px;
+
+}
+
+
+.horizontal-list li a   
+{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s, border-bottom 4s,;
+
+}
+
+.horizontal-list li a:hover 
+{
+    color: lightgrey;
+    border-bottom:2px solid white;
+   
+    
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.social-media img
+{
+
+    padding:20px;
+    height: 1.5rem;
+
+}
+
+.social-media img:hover
+
+{
+
+border-radius: 40%;
+box-shadow: 0px 0px 6px 4px red;
+
+}
+
+
+#name-social-container
+{
+
+    margin-top: 20vh;
+}
+
+
+
+#my-name 
+{
+
+font-size: 4rem;
+letter-spacing: 0.1rem;
+color:white;
+font-weight: 700;
+margin-bottom: 0.5rem;
+}

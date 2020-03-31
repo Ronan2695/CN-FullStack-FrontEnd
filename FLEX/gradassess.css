@@ -1,0 +1,19 @@
+.timeline
+{
+
+ width:75%;
+ border:2px solid black;
+ margin: auto;
+
+}
+
+.timeline-box
+{
+
+    position: relative;
+    width:40%;
+    left:5%;
+    min-height: 150px;
+    border:2px solid black;
+    margin: 5px;
+}

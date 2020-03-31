@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Internal styling is applied here. -->
+
+    <style>
+        <!-- Class Selector -->
+        .p-class-style 
+        {
+            font-size: 14px;
+            background-color: red;
+        }
+
+        /*Id Selector */
+        #p-id-style
+        {
+            background-color: lightgrey;
+            text-transform: uppercase;
+        }
+
+        /*Class Selector*/
+        .p-class-style 
+        {
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <p class="p-class-style" id="p-id-style">This is a paragraph</p>
+
+</body>
+</html>
+
+
+<!-- Solution, First the Id selector css rules will be appplied and then the class selectors rules will be applied.
+The class selector which was mentioned in the last will have its rule applied, as there are two class selectors and they have the same specificity the selector which was mentioned last will have its css rule applied  -->
+

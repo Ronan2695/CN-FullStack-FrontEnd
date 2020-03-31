@@ -1,0 +1,22 @@
+.flexing
+{
+
+
+height: 80vh;
+width: 40vw;
+border: 1px solid black;
+display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+
+}
+
+.box
+{
+
+background-color: blue;
+height: 100px;
+width: 100px;
+border: 1px solid black;
+
+}

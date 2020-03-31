@@ -1,0 +1,48 @@
+#parent
+{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+#div1
+{
+
+width: 32%;
+height: 300px;
+margin: 1%;
+background-color: #ff8989;
+
+}
+
+
+#div2
+{
+
+width: 32%;
+height: 300px;
+margin: 1%;
+background-color: #88f7ce;
+
+}
+
+#div3
+{
+
+width: 32%;
+height: 300px;
+margin: 1%;
+background-color: #e29df2;
+
+}
+
+@media screen and (min-width:600px)
+{
+#parent1 		
+{
+
+display: flex;
+flex-direction: row;
+
+}
+}

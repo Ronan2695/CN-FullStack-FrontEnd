@@ -1,0 +1,34 @@
+#skills
+{
+
+background-color: grey;
+height: 75vh;
+width: 75vw;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center
+
+}
+
+#skillmeter
+{
+
+height: 10%;
+width:40%;
+flex-basis: 20%;
+min-width:50%;
+border:1px solid black;
+border-radius: 40%
+
+}
+
+#colour
+{
+
+background-color:blue;
+width:70%;
+height:100%;
+border-top-left-radius: 50%;
+border-bottom-left-radius:50%;
+}
